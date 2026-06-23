@@ -1,0 +1,376 @@
+:root {
+    --bs-primary: #FF6000;
+    --bs-secondary: #FFEFE6;
+    --bs-primary-hover: #f99455;
+}
+
+.button-h {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: 'Lexend';
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 8rem;
+}
+
+.blogo {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: 'Lexend';
+    color: white;
+}
+
+.button-hs {
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: 'Lexend';
+    color: white;
+    width: 5rem;
+    
+}
+
+.button-hs:hover,
+.button-h:hover,
+.button-h2:hover,
+.blogo:hover {
+    background-color: var(--bs-primary-hover) !important;
+    border-color: var(--bs-primary-hover) !important;
+}
+
+.button-h2 {
+    background-color: var(--bs-secondary);
+    border-color: var(--bs-primary);
+    font-family: 'Lexend';
+    color: #FF6000;
+    width: 8rem;
+}
+
+.bg-home {
+    background-color: #FFEFE6;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main {
+    padding-left: 3rem;
+}
+
+.text1 {
+    color: #FF6000;
+    font-family: 'Lexend';
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.s1 {
+    color: black;
+}
+
+.img1 {
+    padding-top: 3rem;
+    
+}
+
+.rectangle {
+    background-color: white;
+    width: 100%;
+    height: auto;
+    margin-top: 1rem;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: flex;
+    
+}
+
+.rec-div1 {
+    flex: 1;
+    padding-left: 1rem;
+}
+
+.rec-div2 {
+    flex: 1;
+}
+
+.rec-div3 {
+    padding-left: 3rem;
+    flex: 1;
+    padding-right: 1rem;
+}
+
+.rec-t1 {
+    font-family: 'Lexend';
+    font-weight: 800;
+    padding-left: 1rem;
+}
+
+.rec-t2 {
+    color: #939393;
+    font-family: 'Lexend';
+    font-size: 10px;
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+
+.newpg {
+    padding-top: 7rem;
+    padding-left: 3rem;
+}
+
+.new-t-pg {
+    padding-top: 7rem;
+    padding-right: 3rem;
+}
+
+.rec-t3 {
+    color: #939393;
+    font-family: 'Lexend';
+    font-size: 15px;
+}
+
+.t4 {
+    color: #939393;
+    font-family: 'Lexend';
+    font-size: 15px;
+    margin-bottom: 10rem;
+}
+
+.text {
+    font-family: 'Lexend';
+    color: #2A2A2A;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5rem;
+}
+
+.link {
+    font-family: 'Lexend';
+    color: #FF6000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 3rem;
+}
+
+.main1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--bs-secondary);
+    padding: 0.5rem;
+    padding-left: 3rem;
+    gap: 1rem; 
+}
+
+.b-img-1,
+.b-img-2,
+.b-img-3,
+.b-img-4,
+.b-img-5 {
+    flex: 1 1 150px; /* grow, shrink, minimum width */
+    display: flex;
+    align-items: center;
+}
+
+
+.bg-box {
+    
+    background-image: url(../images/bg-box.png);
+    background-size: cover;
+    height: auto;
+    width: 18rem;
+
+}
+
+.text2 {
+    color: #FF6000;
+    font-family: 'Lexend';
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.text3 {
+    color: black;
+    font-family: 'Lexend';
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.main2 {
+    padding-top: 9rem;
+    padding-left: 2rem;
+}
+
+.price {
+    line-height: 9rem;
+
+}
+
+.b {
+    margin-left: 5rem;
+    background-color: var(--bs-primary) !important;
+    border-color: var(--bs-primary) !important;
+    font-family: 'Lexend';
+    color: white;
+}
+
+.row2 {
+    margin-top: 11rem;
+}
+
+.coupon {
+    padding-top: 5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.off25 {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-right: 8rem;
+}
+
+.indian {
+    padding-bottom: 2rem;
+    padding-right: 8rem;
+}
+
+/* navbar css */
+.logo {
+    padding-left: 2rem;
+}
+
+.menu {
+    padding-left: 10rem;
+    gap: 1.5rem;
+    font-family: 'Lexend';
+}
+
+/* for small screens */
+@media(max-width:576px) {
+    .logo {
+        padding-left: 0.5rem;
+        width: 100%;
+        height: 30px;
+    }
+     .text1 {
+    font-size: 1.5rem;
+}
+.main{
+    padding-left: 1rem;
+}
+.button-h,.button-h2{
+    font-size: 12px;
+    width: 6rem;
+}
+.img1{
+    padding-top: 0rem;
+}
+  .rectangle {
+    flex-direction: column;  
+  }
+
+  .rec-div1, .rec-div2, .rec-div3 {
+    flex: none;     
+    width: 100%;     
+    padding: 1rem;   
+  }
+.newpg {
+    padding-top: 4rem;
+}
+.new-t-pg {
+    padding-top: 1rem;
+}
+.bg-box{
+   margin-bottom: 10rem;
+}
+.last-img{
+    margin-bottom: 0rem;
+}
+.row2{
+    margin-top: 0rem;
+}
+.coupon {
+    padding-left: 1rem;
+}
+
+.off25 {
+    padding-bottom: 0.5rem;
+    padding-right: 1rem;
+}
+
+.indian {
+   padding-top: 1.5rem;
+    padding-right: 1rem;
+}
+}
+
+/* Medium screens only (tablets) */
+@media (min-width: 768px) and (max-width: 991px) {
+.img1{
+    padding-top: 0rem;
+}
+ .logo {
+        padding-left: 0.5rem;
+        width: 100%;
+        height: 30px;
+    }
+     .text1 {
+    font-size: 1.5rem;
+}
+.main2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .rectangle {
+        flex-direction: row;  
+        justify-content: space-around;
+        gap: 1.5rem;
+    }
+
+    .rec-div1, .rec-div2, .rec-div3 {
+        flex: 1;
+        padding: 0.5rem;
+    }
+
+.bg-box{
+   margin-bottom: 10rem;
+
+}
+.last-img{
+    margin-bottom: 0rem;
+}
+.row2{
+    margin-top: 0rem;
+}
+    /* coupon and offers spacing */
+    .coupon {
+        padding-left: 2rem;
+        padding-top: 3rem;
+    }
+
+    .off25 {
+        padding-top: 3rem;
+        padding-right: 3rem;
+    }
+
+    .indian {
+        padding-top: 1rem;
+        padding-right: 3rem;
+    }
+}
+/* ---------------------------------------login pg css */
+.login-img{
+    height: 100vh;
+    width: 100%;
+}
+.login-text{
+     font-family: 'Open Sans';
+     font-weight: 800;
+     font-size: 2rem;
+}
+.box{
+    border: 1px solid #dcdcdc;   /* light grey border */
+  border-radius: 8px;          /* rounded corners */
+ 
+}
